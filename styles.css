@@ -1,0 +1,105 @@
+/* Soft Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 1.1rem;
+  font-style: sans-serif;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(275, 275, 205);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.allElementsTogether {
+  /* height: 600px;
+  width: 600px; */
+  /* background-image: url(/img/pug-life.jpg); */
+
+  padding: 60px;
+  overflow: hidden;
+  padding-top: 90px;
+}
+
+.image {
+  position: absolute;
+  background-position: center;
+  background-size: cover;
+}
+
+.theNeighborhood {
+  font-size: 30px;
+  background: rgba(275, 275, 205, 0.9);
+  margin-bottom: 20px;
+  border-radius: 20px;
+  /* max-width: fit-content; */
+  width: auto;
+  width: fit-content;
+  padding: 10px;
+}
+.Paragraph {
+  background-color: rgba(275, 275, 275, 0.7);
+  /* position: absolute; */
+  position: relative;
+  left: -500px;
+  transition: 1s;
+  margin-top: 5px;
+  border-radius: 30px;
+  /* max-width: fit-content; */
+  width: fit-content;
+  padding: 5px;
+  font-weight: bold;
+}
+
+main:hover .Paragraph {
+  transform: translate(26vw, 0);
+}
+
+/* .gelbzone {
+  display: flex;
+  align-items: center;
+  /* border: 2px solid hotpink; */
+/* }  */
+
+/* .gelbeHinterground {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px dotted chartreuse; */
+/* background-color: rgb(218, 218, 84); */
+/* height: 80vh; */
+/* width: 80vw; */
+/* margin: 140px; */
+/* margin-top: 100px; */
+/* margin-left: 150px; */
+/* }  */
+
+/* img { */
+/* padding-left: 500px; */
+/* padding-top: 20px; */
+/* justify-items: center; */
+/* } */
+
+/* .TheNPupper {
+  background-color: bisque;
+  height: 4vh;
+  width: 26vw;
+  font-size: 200%;
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 2px; */
+/* border: 2px solid transparent; */
+/* border-radius: 20px; */
+/* margin-left: 500px;
+  margin-top: -650px;
+  padding-right: 100px; */
+/* color: black; */
+/* transform: translateX(690px);
+  transform: translateY(-650px);
+} */
